@@ -15,12 +15,12 @@ const Best = () => {
                         <p className="best-item__price">10.73$</p>
                     </div>
                     <div className="best-item">
-                        <img src={BestImg01} alt="Presto Coffee Beans 1 kg" className="best-item__img" />
+                        <img src={BestImg02} alt="Presto Coffee Beans 1 kg" className="best-item__img" />
                         <h4 className="best-item__title">Presto Coffee Beans 1 kg</h4>
                         <p className="best-item__price">15.99$</p>
                     </div>
                     <div className="best-item">
-                        <img src={BestImg01} alt="AROMISTICO Coffee 1 kg" className="best-item__img" />
+                        <img src={BestImg03} alt="AROMISTICO Coffee 1 kg" className="best-item__img" />
                         <h4 className="best-item__title">AROMISTICO Coffee 1 kg</h4>
                         <p className="best-item__price">6.99$</p>
                     </div>

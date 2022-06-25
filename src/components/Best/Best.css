@@ -1,7 +1,8 @@
 .best{
     text-align: center;
     padding: 80px 0 110px;
-    background: url('../../images/best-bg.jpg');
+    background: url('../../images/best-bg.jpg') no-repeat center;
+    background-size: cover;
 }
 
 .best__title{
