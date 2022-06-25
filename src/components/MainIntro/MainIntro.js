@@ -1,4 +1,3 @@
-import "../../index.css";
 import "./MainIntro.css";
 import Dec from "../../images/dec.svg"
 
