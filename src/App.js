@@ -1,17 +1,13 @@
-import About from './components/About/About';
-import Best from './components/Best/Best';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import MainIntro from './components/MainIntro/MainIntro';
 import './index.css'
+import MainPage from './pages/Main/Main';
 
 const App = () => {
     return (
         <>
             <Header />
-            <MainIntro />
-            <About />
-            <Best />
+            <MainPage />
             <Footer />
         </>
     )
