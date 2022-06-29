@@ -4,32 +4,3 @@
     list-style: none;
     flex-wrap: wrap;
 }
-
-.coffee-item{
-    flex-basis: 29%;
-    text-align: right;
-    padding: 37px 27px 22px;
-    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
-    background: #FFFFFF;
-    border-radius: 8px;
-    margin-bottom: 60px;
-}
-
-.coffee-item:hover{
-    filter: drop-shadow(5px 5px 35px rgba(0, 0, 0, 0.25));
-    cursor: pointer;
-}
-
-.coffee-item__img{
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 14px;
-}
-
-.coffee-item__name, .coffee-item__loc{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #000000;
-    margin-bottom: 14px;
-}
