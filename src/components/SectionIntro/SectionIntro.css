@@ -1,0 +1,15 @@
+.section-intro{
+    background: url('../../images/our-coffee-intro.jpg') no-repeat center;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-intro__title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
