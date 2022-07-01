@@ -6,6 +6,7 @@ import MainPage from "./pages/Main/Main";
 import Our from "./pages/Our/Our";
 
 import CoffeeImg from "./images/coffee-item-img.jpg"
+import Pleasure from "./pages/Pleasure/Pleasure";
 
 class App extends Component {
 
@@ -26,6 +27,7 @@ class App extends Component {
         <Header />
         {/* <MainPage /> */}
         <Our data={this.state.data}/>
+        {/* <Pleasure /> */}
         <Footer />
       </>
     );

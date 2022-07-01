@@ -2,7 +2,7 @@ import "./CoffeeItem.css";
 
 const CoffeeItem = ({name, image, location, price}) => {
     return (
-        <li className="coffee-item">
+        <li className="coffee-item" >
         <img
           src={image}
           alt="AROMISTICO Coffee 1 kg"
