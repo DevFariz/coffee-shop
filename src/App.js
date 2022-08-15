@@ -96,8 +96,8 @@ class App extends Component {
       <>
         <Header />
         {/* <MainPage /> */}
-        <Our data={visibleData} filter={filter} onUpdateSearch={this.onUpdateSearch} onFilterTab={this.onFilterTab}/>
-        {/* <Pleasure /> */}
+        {/* <Our data={visibleData} filter={filter} onUpdateSearch={this.onUpdateSearch} onFilterTab={this.onFilterTab}/> */}
+        <Pleasure data={data}/>
         <Footer />
       </>
     );
