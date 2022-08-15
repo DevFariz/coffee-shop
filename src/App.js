@@ -81,14 +81,6 @@ class App extends Component {
   };
 
   tabFilter(items, filter) {
-     // switch (filter) {
-    //   case "brazil":
-    //     return items.filter((item) => item.location.toLowerCase() === filter);
-    //   case "kenya":
-    //     return items.filter((item) => item.location.toLowerCase() === filter);
-    //   case "columbia":
-    //     return items.filter((item) => item.location.toLowerCase() === filter);
-    // }
     if(filter === "all"){
       return items
     } else{
@@ -104,7 +96,7 @@ class App extends Component {
       <>
         <Header />
         {/* <MainPage /> */}
-        <Our data={visibleData} onUpdateSearch={this.onUpdateSearch} onFilterTab={this.onFilterTab}/>
+        <Our data={visibleData} filter={filter} onUpdateSearch={this.onUpdateSearch} onFilterTab={this.onFilterTab}/>
         {/* <Pleasure /> */}
         <Footer />
       </>

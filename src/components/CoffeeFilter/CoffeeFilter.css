@@ -40,6 +40,10 @@
     cursor: pointer;
 }
 
+.coffee-filter-right button.active{
+    background: #f3ebeb;
+}
+
 .coffee-filter-right button:last-child{
     margin-right: 0;
 }

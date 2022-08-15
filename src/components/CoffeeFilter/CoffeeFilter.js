@@ -23,8 +23,9 @@ class CoffeeFilter extends Component {
     ]
 
     const btns = buttonsData.map(({name, label}) => {
+      const isActive = this.props.filter === name;
       return (
-        <button key={name} onClick={() => this.props.onFilterTab(name)}>{label}</button>
+        <button key={name} className={isActive ? "active" : null} onClick={() => this.props.onFilterTab(name)}>{label}</button>
       )
     })
 
